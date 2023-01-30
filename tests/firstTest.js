@@ -13,6 +13,7 @@ async function example() {
         .sendKeys("Learn Selenium", Key.RETURN);
 
     // close the browser
+    await driver.quit();
 
 }
 
